@@ -1,5 +1,5 @@
 body{
-	background:url(../img/background.jpg); 
+	background: linear-gradient(white, pink);
 	color:#868686; 
 	font-family: "Open Sans", Helvetica, sans-serif, arial; 
 	font-size: 18px; /* 18px a· 16px = 1.125em */
@@ -12,6 +12,10 @@ body{
 	margin: 0 auto;
 	max-width:1200px; /*largura maxima do layout*/
 	width: 90%; /*ajuste do layout a  tela*/
+}
+
+.centro img{
+	width: 200px;
 }
 /*.clearfixbody usado para adicionar um espaço vazio antes e depois dos elementos
   evitando que os floats se aglomerem.
@@ -117,11 +121,18 @@ nav{
 	text-align:center;
 	width:100%; /*1200px a 1200px = 1 x 100 = 100%*/
 }
+	h2{
+		color: black;
+		font-style: italic;
+	}	
 	h2 span{
 		font-size: 1em; /* 60px a 60px = 1em */
 		font-weight: 300;
 		letter-spacing: -0.0333333333em; /* -2px a 60px = 0.0333333333em */
 		line-height: 1em; /* 60px a 60px = 1em */
+	}
+	h3{
+		color:purple;
 	}
 	.chamada h3 {
 		margin: 0 auto;
@@ -129,7 +140,7 @@ nav{
 	}
 
 .meio{
-	background-color:#0ac3fe;
+	background-color:pink;
 	height: 437px;
 	padding: 2.5%;
 	width: 95%;
@@ -146,18 +157,18 @@ nav{
 	margin-right: 2.631578947368421%;
 }
 .desktop{
-	background-color:#fe9481;
+	
 }
 .tablet{
-	background-color:#fcda92;
+	
 }
 
 .mobile{
-	background-color:#9c8cb9;
+	
 	margin-right:0px;
 }
 .meio .desktop figure, .meio .tablet figure, .meio .mobile figure{
-	margin: 15px auto 0px auto;
+	margin: 12px auto 0px auto;
 	width: 69.44444444444444%;
 }
 .meio h3{
@@ -169,9 +180,12 @@ nav{
 	text-shadow:none;
 }
 .meio p {
+	color: black;
+}
+.meio p {
 	background-color:#ffffff;
 	float:left;
-	height:200px;
+	height:100px;
 	padding: 1.9444444444444445%;
 	position: absolute;
 	max-width: 100%;
@@ -212,6 +226,9 @@ footer{
 .copyleft{
 	float: left;
 	margin-left: 2.5%;
+}
+.copyleft p a{
+	color: black;
 }
 .desenvolvedor{
 	float:right
